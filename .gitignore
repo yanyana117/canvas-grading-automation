@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Real rosters, grades, and reports must never be committed.
+# All CSV is ignored except the sample data.
+*.csv
+!sample_data/*.csv
+late_times.csv
+grading_report*.csv
+grades*.csv
+*.numbers
+
+# Downloaded student work
+submissions/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
